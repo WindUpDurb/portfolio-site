@@ -1,246 +1,99 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#2196F3">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
     <title>David Urbina</title>
-    <!-- CSS  -->
-    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="min/custom-min.css" type="text/css" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="bootstrap.css">
-    <link type="text/css" rel="stylesheet" href="bootstrap-material-design.css">
+    <!--Inspired from http://melaniedaveid.com/-->
 </head>
-<body id="top" class="scrollspy">
-
-<!-- Pre Loader -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
- 
-</div>
-
-<!--Navigation-->
- <div class="navbar-fixed">
-    <nav id="nav_f" class="default_color" role="navigation">
-        <div class="container">
-            <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo">David Urbina</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#intro">About Me</a></li>
-                    <li><a href="#team">Blog</a></li>
-                    <!--<li><a href="#team">Blog</a></li>-->
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#work">Projects</a></li>
-                    <li><a href="./resume.pdf" class="view-pdf" target="_blank">Resume</a></li>
-                </ul>
-                <ul id="nav-mobile" class="side-nav">
-                    <li><a href="#intro">About Me</a></li>
-                    <li><a href="#team">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#work">Projects</a></li>
-                    <li><a href="./resume.pdf" class="view-pdf" target="_blank">Resume</a></li>
-                </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+<body>
+    <div id="headerParallaxContainer" class="text-center">
+        <div style="padding-top: 5vh">
+            <span style="font-size: 18px" class="headerFont seafoamGreen">Full-Stack Javascript Developer  &nbsp  &   &nbsp Writer</span>
+        </div>
+        <div id="divAroundQuill" class="text-center">
+            <div id="backgroundQuill">
+                <div style="padding-top: 150px;" class="text-center">
+                    <span  class="nameFont">David Urbina</span>
+                </div>
             </div>
         </div>
-    </nav>
-</div>
-
-<!--Hero-->
-<div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-        <h1 class="text_h center header cd-headline letters type">
-            <span>Full-stack Javascript developer</span>
-            <br>with a ravenous appetite for learning.
-            <!--<span>Because nothing in life worth pursuing is easily attainable.</span>-->
-        </h1>
+        <div style="padding-top: 20vh">
+            <span style="font-size: 18px" class="headerFont seafoamGreen">Site is under Construction</span>
+            <br>
+            <span style="font-size: 18px" class="headerFont seafoamGreen">About &nbsp &nbsp / &nbsp &nbsp</span>
+            <span style="font-size: 18px" class="headerFont seafoamGreen">Projects &nbsp &nbsp / &nbsp &nbsp</span>
+            <span style="font-size: 18px" class="headerFont seafoamGreen">Contact</span>
+        </div>
     </div>
-</div>
-
-<!--Team-->
-<div class="section scrollspy" id="team">
-    <div class="container">
-        <h2 class="header text_b"> Wind-UpDurb </h2>
+    <div id="aboutSection">
         <div class="row">
-            <span style="color: #607D8B" class="text_h center header cd-headline letters type">Find me in my relentless pursuits -- of probing Javascript, Web Development, and Life:</span>
+            <div style="height: 100vh" class="col-xs-6 secondaryColorBackground text-center">
+                <div style="position: absolute; left: 50vh; top: 10vh;">
+                    <img class="myPhoto img-rounded" src="/Images/myPhoto.jpg">
+                </div>
+                <div style="padding-top: 40vh">
+                    <span class="nameFont">About</span>
+                </div>
+            </div>
+            <div style="height: 100vh; color: #292929;" class="col-xs-6 headerFont">
+                <div style="padding-left: 5vh; padding-right: 2vh">
+                    <div style="padding-top: 3vh">
+                        <p style="font-size: 16px; font-weight: bold">I am a full-stack Javascript developer with a ravenous appetite for learning.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div style="margin-top: 50px; margin-bottom: 25px"  class="row">
-            <div class="col-sm-6 col-sm-offset-3 blockDivider"></div>
-        </div>
-
-            <div style="margin-top: 45px;" class="row">
-                <div class="col-xs-6 col-sm-2">
-                    <img style="width: 30px; height: 30px;" src="http://windupdurb.github.io/portfolio-site/img/myphoto.jpg" class="img-rounded thumbnailImage">
-                    <span class="greyText">David Urbina</span>
-                </div>
-                <div class="col-xs-offset-7 col-sm-offset-10">August 16, 2016</div>
-            </div>
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-3">
-                    <h4 style="margin-top: 35px"><a href="http://www.windupdurb.com/#!/writing/that-one-drink-abstraction-in-your-javascript" target="_blank">That Drink Brewed From Malted Barley: An Introduction to Using Abstraction in Your Javascript </a></h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-3">
-                    <p>Abstraction is what allows me to refer to beer without the need of having to understand the complexity of that drink brewed from malted barley. Read about how abstraction applies to Javascript. </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6 col-xs-offset-4 col-sm-3 col-sm-offset-5">
-                    <a style="margin-bottom: 10px; background-color: #FF5722" class="btn btn-primary btn-raised" style="color: white;" href="http://www.windupdurb.com" target="_blank">Blog</a>
-                </div>
-
-            </div>
-            <!--
-            <div class="center-align">
-                <a href="http://www.windupdurb.com">
-                    <img style="display: inline-block" src="./img/windup-key.png">
-                </a>
-            </div>-->
     </div>
-</div>
-
-
-<div id="contact" style="margin-top: 85px; margin-bottom: 85px;" class="section scrollspy">
-    <div class="container">
+    <div id="projectSection">
         <div class="row">
-            <div  class="col s12">
-                <h2 class="center header text_h2">
-                    <span style="color: #607D8B">I am on:</span>
-                    <div  style="margin-top: 20px" class="row">
-                        <a style="margin-right: 5px;" href="https://twitter.com/WindUpDurb" target="_blank">
-                            <i class="fa fa-twitter medium black-text" aria-hidden="true"></i>
-                        </a>
-                        <a style="margin-right: 5px;" href="https://github.com/windupdurb" target="_blank">
-                            <i class="medium fa fa-github-square black-text"></i>
-                        </a>
-                        <a class="white-text" href="https://www.linkedin.com/in/david-urbina-589327b9" target="_blank">
-                            <i class="medium fa fa-linkedin-square black-text"></i>
-                        </a>
-                    </div>
-                </h2>
+            <div style="height: 100vh; color: #292929;" class="col-xs-6 text-center">
+                <div style="padding-top: 40vh">
+                    <span style="color: #292929;" class="nameFont">Projects</span>
+                </div>
             </div>
+            <div style="height: 100vh; padding-left: 0; overflow-y: scroll" class="col-xs-6">
+                <div id="dddDiv">
+
+                </div>
+                <div id="jsmDiv">
+
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-
-
-<!--Projects-->
-<div class="section scrollspy" id="work">
-    <div class="container">
-        <h2 class="header text_b">Projects </h2>
+    <div id="contactSection">
         <div class="row">
-
-            <div class="col-sm-4 col-sm-offset-2">
-                <div style="padding: 10px;" class="card text-center">
-                    <div class="card-block">
-                        <h4 style="color: black" class="card-title">Drink, Drank, Drunk</h4>
-                        <h6 class="card-subtitle text-muted">A beer lover's web application</h6>
-                    </div>
-                    <img src="http://windupdurb.github.io/portfolio-site/img/ddd1.jpg" alt="Card image" class="img-responsive">
-                    <div class="card-block">
-                        <br>
-                        <p class="card-text">Built on MongoDB, Express and Node, React with Redux, and powered with BreweryDB, AWS S3, Yelp API, and Google Login.</p>
-                        <a href="https://github.com/WindUpDurb/drink-drank-drunk-react" target="_blank" class="card-link">Find the code on Github here.</a>
-                        <br>
-                        <a href="http://www.drinkdrankdrunk.tech/" target="_blank" class="card-link">Find it deployed on an Amazon EC2 instance here.</a>
+            <div style="height: 100vh; background-color: #292929;" class="col-xs-6 text-center">
+                <div style="padding-top: 40vh">
+                    <span class="nameFont">Contact</span>
+                </div>
+            </div>
+            <div style="height: 100vh;" class="col-xs-6">
+                <div style="padding-left: 5vh; padding-right: 2vh">
+                    <div style="padding-top: 3vh">
+                        <p style="font-size: 16px; font-weight: bold">
+                            Here is my latest blog post:
+                        </p>
+                        <div onclick="window.open('http://www.windupdurb.com/#!/writing/that-one-drink-abstraction-in-your-javascript', '_blank')" class="cardEffect pointer text-center" style="width: 300px; margin: 0 auto;">
+                            <img style="width: 300px; padding: 10px;" src="/Images/dandelionCompressed.jpg">
+                            <span style="font-size: 16px; font-weight: bold; padding: 10px;">That Drink Brewed From Malted Barley: An Introduction to Using Abstraction in Your Javascript</span>
+                            <span style="padding: 0 10px 20px 10px">Abstraction is what allows me to refer to beer without the need of having to understand the complexity of that drink brewed from malted barley. Read about how abstraction applies to Javascript. </span>
+                            <br>
+                            <br>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-            <div class="col-sm-4">
-                <div style="padding: 10px;" class="card text-center">
-                    <div class="card-block">
-                        <h4 style="color: black" class="card-title">JSM</h4>
-                        <h6 class="card-subtitle text-muted">Job application management system</h6>
-                    </div>
-                    <img src="http://windupdurb.github.io/portfolio-site/img/JSMimage.png" alt="Card image" class="img-responsive">
-                    <div class="card-block">
-                        <br>
-                        <p class="card-text">A MEAN stack web application that also integrates with Google APIs and SendGrid.</p>
-                        <a href="https://github.com/amazingandyyy/jobrm" target="_blank" class="card-link">Find the code on Github here.</a>
-                        <br>
-                        <a href="http://www.jsm-app.tech/" target="_blank" class="card-link">Find the deployed project here.</a>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
     </div>
-</div>
 
-
-
-
-<!--Footer-->
-<footer id="contact" class="page-footer default_color scrollspy">
-    <div class="container center">
-        <div class="row">
-            <div class="col l3 s12">
-               <!-- <h5 class="white-text">davidurbina.com</h5>
-                <ul>
-                    <li><a class="white-text" href="#">Home</a></li>
-                    <li><a class="white-text" href="http://www.windupdurb.com">Blog</a></li>
-                </ul>-->
-            </div>
-            <div class="col l3 s12">
-                <!--<h5 class="white-text">Social</h5>
-                <ul>
-                 &lt;!&ndash;   <li>
-                        <a class="white-text" href="https://www.facebook.com/joash.c.pereira">
-                            <i class="small fa fa-facebook-square white-text"></i> Facebook
-                        </a>
-                    </li>&ndash;&gt;
-                    <li>
-                        <a class="white-text" href="https://github.com/windupdurb">
-                            <i class="small fa fa-github-square white-text"></i> Github
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="#">
-                            <i class="small fa fa-linkedin-square white-text"></i> Linkedin
-                        </a>
-                    </li>
-                </ul>-->
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright default_color">
-        <div class="container">
-
-        </div>
-    </div>
-</footer>
-
-
-    <!--  Scripts-->
-    <script src="min/plugin-min.js"></script>
-    <script src="min/custom-min.js"></script>
-    <script>
-
-        (function(a){a.createModal=function(b){defaults={title:"",message:"Your Message Goes Here!",closeButton:true,scrollable:false};var b=a.extend({},defaults,b);var c=(b.scrollable===true)?'style="max-height: 420px;overflow-y: auto;"':"";html='<div class="modal fade" id="myModal">';html+='<div class="modal-dialog">';html+='<div class="modal-content">';html+='<div class="modal-header">';html+='<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>';if(b.title.length>0){html+='<h4 class="modal-title">'+b.title+"</h4>"}html+="</div>";html+='<div class="modal-body" '+c+">";html+=b.message;html+="</div>";html+='<div class="modal-footer">';if(b.closeButton===true){html+='<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>'}html+="</div>";html+="</div>";html+="</div>";html+="</div>";a("body").prepend(html);a("#myModal").modal().on("hidden.bs.modal",function(){a(this).remove()})}})(jQuery);
-
-        $(function() {
-            $('.view-pdf').on('click', function () {
-                var pdf_link = $(this).attr('href');
-                //var iframe = '<div class="iframe-container"><iframe src="'+pdf_link+'"></iframe></div>'
-                //var iframe = '<object data="'+pdf_link+'" type="application/pdf"><embed src="'+pdf_link+'" type="application/pdf" /></object>'
-                var iframe = '<object type="application/pdf" data="' + pdf_link + '" width="100%" height="500">No Support</object>'
-                $.createModal({
-                    title: 'My Title',
-                    message: iframe,
-                    closeButton: true,
-                    scrollable: false
-                });
-                return false;
-            });
-        })
-    </script>
-
-    </body>
+</body>
 </html>
+>>>>>>> version-2
