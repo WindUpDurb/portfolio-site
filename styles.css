@@ -1,0 +1,86 @@
+.darkGreyBackground {
+    background-color: #292929;
+}
+
+#headerParallaxContainer {
+    height: 100vh;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#divAroundQuill {
+    padding-top: 30vh;
+}
+
+#dddDiv {
+    background-image: url("/Images/dddrecent.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#jsmDiv {
+    background-image: url("/Images/jsm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#backgroundQuill {
+    background-image: url("/Images/quill.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.nameFont {
+    font-family: 'Yellowtail', cursive;
+    font-size: 56px;
+    color: #E0E0E0;
+}
+
+.myPhoto {
+    width: 100px;
+}
+
+.headerFont {
+    font-family: 'Dosis', sans-serif;
+}
+
+.seafoamGreen {
+    color: #FCC200;
+}
+
+.secondaryColorBackground {
+    background-color: #FCC200;
+    color: #E0E0E0;
+}
+
+#aboutSection {
+    height: 100vh;
+}
+
+#projectSection {
+    height: 100vh;
+}
+
+#contactSection {
+    height: 100vh;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.cardEffect {
+    background-color: white;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.cardEffect:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
