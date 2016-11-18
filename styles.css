@@ -13,20 +13,20 @@
 }
 
 #dddDiv {
-    background-image: url("/Images/dddrecent.png");
+    background-image: url("http://windupdurb.github.io/portfolio-site/Images/dddrecent.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
 }
 #jsmDiv {
-    background-image: url("/Images/jsm.png");
+    background-image: url("http://windupdurb.github.io/portfolio-site/Images/jsm.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 #backgroundQuill {
-    background-image: url("/Images/quill.png");
+    background-image: url("http://windupdurb.github.io/portfolio-site/Images/quill.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 260px;
