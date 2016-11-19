@@ -9,11 +9,22 @@
 }
 
 #divAroundQuill {
-    padding-top: 30vh;
+    padding-top: 25vh;
+}
+
+#divAroundQuillEnd {
+    padding-top: 25vh;
+    color: #292929;
+}
+
+.twitterIcon {
+    height: auto;
+    max-height: 42px;
+    cursor: pointer;
 }
 
 #dddDiv {
-    background-image: url("http://windupdurb.github.io/portfolio-site/Images/dddrecent.png");
+    background-image: url("/Images/thisBeerCompressed2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -26,7 +37,16 @@
 }
 
 #backgroundQuill {
-    background-image: url("http://windupdurb.github.io/portfolio-site/Images/quill.png");
+    background-image: url("/Images/keyboard.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#backgroundQuillEnd {
+    background-image: url("/Images/quill.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 260px;
@@ -40,6 +60,27 @@
     color: #E0E0E0;
 }
 
+.moreInfoButton  {
+    border: 1px solid #E0E0E0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.moreInfoButton:hover {
+    background-color: white;
+    border: none;
+    color: #292929;
+}
+
+#dddMoreInfo {
+    visibility: hidden;
+    transition: opacity 2s;
+}
+
+#dddDiv:hover #dddMoreInfo {
+    visibility: visible;
+}
+
 .myPhoto {
     width: 100px;
 }
@@ -48,7 +89,12 @@
     font-family: 'Dosis', sans-serif;
 }
 
-.seafoamGreen {
+.mainColor {
+    color: #FCC200;
+}
+
+a:hover {
+    text-decoration: none;
     color: #FCC200;
 }
 
@@ -67,6 +113,11 @@
 
 #contactSection {
     height: 100vh;
+}
+
+#lastSection {
+    height: 100vh;
+    background-color: #FCC200;
 }
 
 .pointer {

@@ -8,28 +8,30 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-    <link rel="stylesheet" href="http://windupdurb.github.io/portfolio-site/styles.css">
+    <link rel="stylesheet" href="/styles.css">
+    <!--<link rel="stylesheet" href="http://windupdurb.github.io/portfolio-site/styles.css">-->
     <title>David Urbina</title>
     <!--Inspired from http://melaniedaveid.com/-->
 </head>
 <body>
     <div id="headerParallaxContainer" class="text-center">
         <div style="padding-top: 5vh">
-            <span style="font-size: 18px" class="headerFont seafoamGreen">Full-Stack Javascript Developer  &nbsp  &   &nbsp Writer</span>
+            <span style="font-size: 18px" class="headerFont mainColor">Full-Stack Javascript Developer  &nbsp  &   &nbsp Writer</span>
         </div>
         <div id="divAroundQuill" class="text-center">
             <div id="backgroundQuill">
-                <div style="padding-top: 150px;" class="text-center">
-                    <span  class="nameFont">David Urbina</span>
+                <div style="padding-top: 15vh;" class="text-center">
+                    <span style="color: black" class="nameFont">David Urbina</span>
                 </div>
             </div>
         </div>
         <div style="padding-top: 20vh">
-            <span style="font-size: 18px" class="headerFont seafoamGreen">Site is under Construction</span>
+            <!--Check out the keyboard icon in images instead of quill-->
+            <span style="font-size: 18px" class="headerFont mainColor">Site is under Construction</span>
             <br>
-            <span style="font-size: 18px" class="headerFont seafoamGreen">About &nbsp &nbsp / &nbsp &nbsp</span>
-            <span style="font-size: 18px" class="headerFont seafoamGreen">Projects &nbsp &nbsp / &nbsp &nbsp</span>
-            <span style="font-size: 18px" class="headerFont seafoamGreen">Contact</span>
+            <a href="#aboutSection" id="aboutButton" style="font-size: 18px" class="headerFont mainColor">About &nbsp &nbsp / &nbsp &nbsp</a>
+            <a href="#projectSection" style="font-size: 18px" class="headerFont mainColor">Projects &nbsp &nbsp / &nbsp &nbsp</a>
+            <a href="#contactSection" style="font-size: 18px" class="headerFont mainColor">Contact</a>
         </div>
     </div>
     <div id="aboutSection">
@@ -58,9 +60,19 @@
                     <span style="color: #292929;" class="nameFont">Projects</span>
                 </div>
             </div>
-            <div style="height: 100vh; padding-left: 0; overflow-y: scroll" class="col-xs-6">
-                <div id="dddDiv">
-
+            <div style="height: 100vh; padding-left: 0; color: white; overflow-y: scroll" class="col-xs-6">
+                <div id="dddDiv" class="text-center">
+                    <div style="padding-top: 35vh">
+                        <span style="font-size: 21px; font-weight: bold">Drink, Drank, Drunk</span>
+                        <br>
+                        <span style="font-size: 15px;">MERN Beer Application</span>
+                        <br><br><br>
+                        <div id="dddMoreInfo">
+                            <div class="moreInfoButton">
+                               <div><span style="font-size: 18px">More Info.</span></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="jsmDiv">
 
@@ -78,10 +90,28 @@
             <div style="height: 100vh;" class="col-xs-6">
                 <div style="padding-left: 5vh; padding-right: 2vh">
                     <div style="padding-top: 3vh">
-                        <p style="font-size: 16px; font-weight: bold">
-                            Find me in my relentless pursuits-- of probing Javascript, web development, and life:
+                        <p style="font-size: 18px; font-weight: bold">
+                            David Urbina
                         </p>
-                        <div onclick="window.open('http://www.windupdurb.com/#!/writing/that-one-drink-abstraction-in-your-javascript', '_blank')" class="cardEffect pointer text-center" style="width: 300px; margin: 0 auto;">
+                        <br><br>
+                        <span style="font-size: 16px">
+                            Full-Stack Javascript Developer & Writer
+                        </span>
+                        <br><span class="mainColor">durbina1991@gmail.com</span>
+                        <br><br>
+                        <div>
+                        <span><img id="twitterIcon" src="/Images/twitterLogo.png" class="twitterIcon"></span>
+                            <div style="display: inline-block; padding-left: 8px; padding-right: 8px">
+                                <span><img id="githubIcon" src="/Images/github-logo.png" class="twitterIcon"></span>
+                            </div>
+                            <div style="display: inline-block;">
+                                <span><img id="linkedInIcon" src="/Images/linkedin-logo.png" class="twitterIcon"></span>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <span style="font-size: 17px">Find me writing about Javascript:</span>
+                        <br><br>
+                        <div onclick="window.open('http://www.windupdurb.com/#!/writing/that-one-drink-abstraction-in-your-javascript', '_blank')" class="cardEffect pointer text-center" style="width: 300px">
                             <img style="width: 300px; padding: 10px;" src="http://windupdurb.github.io/portfolio-site/Images/dandelionCompressed.jpg">
                             <span style="font-size: 16px; font-weight: bold; padding: 10px;">That Drink Brewed From Malted Barley: An Introduction to Using Abstraction in Your Javascript</span>
                             <span style="padding: 0 10px 20px 10px">Abstraction is what allows me to refer to beer without the need of having to understand the complexity of that drink brewed from malted barley. Read about how abstraction applies to Javascript. </span>
@@ -93,7 +123,19 @@
             </div>
         </div>
     </div>
-
+    <div id="lastSection">
+        <div class="row">
+            <div style="height: 100vh" class="col-xs-12">
+                <div id="divAroundQuillEnd" class="text-center">
+                    <div id="backgroundQuillEnd">
+                        <div style="padding-top: 28vh;" class="text-center">
+                            <span style="color: #292929" class="nameFont">David Urbina</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
->>>>>>> version-2
