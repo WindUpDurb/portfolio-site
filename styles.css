@@ -37,7 +37,7 @@
 }
 
 #backgroundQuill {
-    background-image: url("/Images/keyboard.png");
+    background-image: url("http://windupdurb.github.io/portfolio-site/Images/keyboard.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 260px;
@@ -46,7 +46,7 @@
 }
 
 #backgroundQuillEnd {
-    background-image: url("/Images/quill.png");
+    background-image: url("http://windupdurb.github.io/portfolio-site/Images/quill.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 260px;
