@@ -41,12 +41,20 @@
     cursor: pointer;
 }
 
+#imageReadDiv {
+    background-image: url("/Images/imageRead.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 #dddDiv {
     background-image: url("http://windupdurb.github.io/portfolio-site/Images/thisBeerCompressed2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
 }
+
 #jsmDiv {
     background-image: url("http://windupdurb.github.io/portfolio-site/Images/jsm.png");
     background-position: center;
@@ -98,6 +106,32 @@
     /*border: none;*/
     /*color: #292929;*/
 /*}*/
+
+#imageReadMoreInfo {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    height: 100vh;
+    background-color: rgba(239,239,239,0.6);
+    color: black;
+}
+
+
+#imageReadDiv:hover #imageReadMoreInfo {
+    visibility: visible;
+    opacity: 3;
+}
+
+#imageReadDiv:hover #imageReadInfo {
+    visibility: hidden;
+}
+
+#imageReadInfo {
+    position: absolute;
+    width: 100%;
+}
+
+
 
 #jsmMoreInfo {
     visibility: hidden;
@@ -175,6 +209,7 @@ a:hover {
 
 #projectSection {
     height: 100vh;
+    overflow: hidden;
 }
 
 #contactSection {

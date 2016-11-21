@@ -14,7 +14,7 @@
     <title>David Urbina</title>
     <!--Inspired by http://melaniedaveid.com/-->
 </head>
-<body>
+<body style="overflow-x: hidden">
     <div id="headerParallaxContainer" class="text-center">
         <div style="padding-top: 5vh">
             <span style="font-size: 18px" class="headerFont mainColor">Full-Stack Javascript Developer  &nbsp  &   &nbsp Writer</span>
@@ -38,17 +38,68 @@
     <div id="aboutSection">
         <div class="row">
             <div style="height: 100vh" class="col-xs-6 secondaryColorBackground text-center">
-                <div style="position: absolute; left: 50vh; top: 10vh;">
-                    <img class="myPhoto img-rounded" src="http://windupdurb.github.io/portfolio-site/Images/myPhoto.jpg">
-                </div>
                 <div style="padding-top: 40vh">
-                    <span class="nameFont">About</span>
+                    <span style="color: white;" class="nameFont">About</span>
                 </div>
             </div>
-            <div style="height: 100vh; color: #292929;" class="col-xs-6 headerFont">
-                <div style="padding-left: 5vh; padding-right: 2vh">
+            <div style="height: 100vh; color: #292929; overflow-y: scroll" class="col-xs-6 headerFont">
+                <div style="padding-left: 5vh; padding-right: 2vh;">
                     <div style="padding-top: 3vh">
-                        <p style="font-size: 16px; font-weight: bold">I am a full-stack Javascript developer with a ravenous appetite for learning.</p>
+                        <p style="font-size: 18px; font-weight: bold">I am a full-stack Javascript developer
+                            and writer.</p>
+                        <br>
+                        <p style="font-size: 16px; padding-top: 25px; font-weight: bold">Hello, World</p>
+                        <p style="font-size: 15px;">It was at “Hello, World” on Codecademy one Friday evening while working at a criminal defense law office
+                            in southern California when I ditched wavering desires to go to law school and accept
+                            wholeheartedly the pursuit of programming alongside writing fiction. </p>
+                        <br>
+                        <p style="font-size: 16px; padding-top: 25px; font-weight: bold">Iteration</p>
+                        <p style="font-size: 15px;">After months of self-learning some Ruby and Javascript, I enrolled in
+                            a 14-week live-in full-stack Javascript coding boot-camp.
+                        </p>
+                        <p style="font-size: 15px;">I am now working at the coding boot-camp that I attended as an Instructional
+                            Software Developer. My current main responsibilities consist of:
+                        </p>
+                        <br>
+                        <span style="font-size: 15px; font-weight: bold">Building software, such as company products and instructional tools</span>
+                        <ul style="font-size: 15px;">
+                            <li>I spearheaded a Chrome extension built on React and Redux that aimed at assisting the boot-camp’s graduates in their job searches</li>
+                            <li>I spearheaded a Javascript Integrated Development Environment to be used for coding challenges for current students and for pre-work for prospective students</li>
+                        </ul>
+                        <span style="font-size: 15px; font-weight: bold">Creating and curating instructional content and resources</span>
+                        <ul style="font-size: 15px;">
+                            <li>I organize and conduct whiteboard sessions with every student individually on a weekly basis</li>
+                            <li>I conduct weekly one-on-one sessions with the students to review their code</li>
+                        </ul>
+                        <span style="font-size: 15px; font-weight: bold">Teaching and relating computer science and full-stack Javascript concepts to students</span>
+                        <ul style="font-size: 15px;">
+                            <li>I am responsible for review sessions with each student for the weekly checklist of concepts</li>
+                            <li>The live-in nature of the program allows me to be easily accessible to the students throughout the day and night to discuss, teach, and relate concepts,
+                                as well as debug and troubleshoot their code
+                            </li>
+                        </ul>
+                        <br>
+                        <p style="font-size: 16px; padding-top: 30px; font-weight: bold">In my pursuits, I have realized that writing stories and writing software is not all that different from one another.</p>
+                        <br>
+                        <p style="padding-top: 05px; font-size: 15px;">
+                            There’s a piece of creative writing advice that is widely known in the literary community: “Kill your darlings.”
+                            It means that however attached an author may be to a word, sentence, paragraph, page, chapter, if it does not contribute to the piece as a whole,
+                            it should be taken out
+                            <br>
+                            This advice encourages taking into account micro and macro perspectives of a project,
+                            and how each line of code, function, component, feature, contributes to the project as a whole.
+                        </p>
+                        <br>
+                        <p style="padding-top: 15px; font-size: 15px;">
+                            A story is not complete when the last period is placed.
+                            The real work is in revising draft after draft after draft to sharpen the language,
+                            remove the unnecessary, and bolster the essential.
+                            In programming, revising is synonymous with refractoring — the importance of debugging and optimizing code.
+                        </p>
+                        <br>
+                        <div style="padding-top: 5px; padding-bottom: 10px;">
+                            <img src="/Images/owl.png">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -61,14 +112,48 @@
                     <span style="color: #292929;" class="nameFont">Projects</span>
                 </div>
             </div>
-            <div style="height: 100vh; padding-left: 0; color: white; overflow-y: scroll" class="col-xs-6">
+            <div style="height: 100vh; padding-left: 0; color: white; overflow-y: scroll;" class="col-xs-6">
+
+                <div id="imageReadDiv">
+                    <div class="text-center" id="imageReadInfo" style="padding-top: 35vh">
+                        <span style="font-size: 21px; font-weight: bold">Imageread</span>
+                        <br>
+                        <span style="font-size: 15px;">A MERN News Web Application</span>
+                    </div>
+                    <div style="padding-left: 5vh;" id="imageReadMoreInfo">
+                        <br><br><br><br>
+                        <span style="font-size: 20px; font-weight: bold;">Imageread</span>
+                        <p style="font-size: 18px; padding-top: 5vh;">
+                            A web application that connects you to the current world through images and print media.
+                        </p>
+                        <p style="font-size: 15px;">
+                            Express and Node on the Back-End
+                            <br>
+                            React and Redux on the Front-End
+                            <br>
+                            Powered with News from Sources like CNN, ABC, Tech Crunch, and Photography from 500px and The Big Picture from the Boston Globe
+                            <br>
+                            Deployed on Vultr
+                        </p>
+                        <div style="padding-top: 5vh">
+                            <div id="imageReadDeployedHere" class="moreInfoButton text-center">
+                                <span style="font-weight: bold">Deployed Here</span>
+                            </div>
+                            <br><br><br>
+                            <div id="imageReadCodeHere" class="moreInfoButton text-center">
+                                <span style="font-weight: bold">Code Here</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div id="dddDiv">
                     <div class="text-center" id="dddInfo" style="padding-top: 35vh">
                         <span style="font-size: 21px; font-weight: bold">Drink, Drank, Drunk</span>
                         <br>
                         <span style="font-size: 15px;">A MERN Beer Web Application</span>
                     </div>
-                    <div style="padding-left: 5vh; padding-right: 2vh;" id="dddMoreInfo">
+                    <div style="padding-left: 5vh;" id="dddMoreInfo">
                         <br><br><br>
                         <span style="font-size: 20px; font-weight: bold;">Drink, Drank, Drunk</span>
                         <p style="font-size: 18px; padding-top: 5vh;">
@@ -81,7 +166,7 @@
                             <br>
                             Powered with BreweryDB, AWS S3, the Yelp API, and Google Login
                             <br>
-                            Deployed on an Amazon EC2 Instance
+                            Deployed on Digital Ocean
                         </p>
                         <div style="padding-top: 5vh">
                             <div id="dddDeployedHere" class="moreInfoButton text-center">
@@ -94,13 +179,14 @@
                         </div>
                     </div>
                 </div>
+
                 <div id="jsmDiv">
                     <!--<div class="text-center" id="jsmInfo" style="padding-top: 35vh">-->
                         <!--<span style="font-size: 21px; font-weight: bold">JSM</span>-->
                         <!--<br>-->
                         <!--<span style="font-size: 15px;">A MEAN Web Application</span>-->
                     <!--</div>-->
-                    <div style="padding-left: 5vh; padding-right: 2vh;" id="jsmMoreInfo">
+                    <div style="padding-left: 5vh;" id="jsmMoreInfo">
                         <br><br><br>
                         <span style="font-size: 20px; font-weight: bold;">JSM</span>
                         <p style="font-size: 18px; padding-top: 5vh;">
@@ -161,7 +247,7 @@
                         <br><br><br>
                         <span style="font-size: 17px">Find me writing about Javascript:</span>
                         <br><br>
-                        <div onclick="window.open('http://www.windupdurb.com/#!/writing/that-one-drink-abstraction-in-your-javascript', '_blank')" class="cardEffect pointer text-center" style="width: 300px">
+                        <div onclick="window.open('http://www.windupdurb.com/writing/that-one-drink-abstraction-in-your-javascript', '_blank')" class="cardEffect pointer text-center" style="width: 300px">
                             <img style="width: 300px; padding: 10px;" src="http://windupdurb.github.io/portfolio-site/Images/dandelionCompressed.jpg">
                             <span style="font-size: 16px; font-weight: bold; padding: 10px;">That Drink Brewed From Malted Barley: An Introduction to Using Abstraction in Your Javascript</span>
                             <span style="padding: 0 10px 20px 10px">Abstraction is what allows me to refer to beer without the need of having to understand the complexity of that drink brewed from malted barley. Read about how abstraction applies to Javascript. </span>
