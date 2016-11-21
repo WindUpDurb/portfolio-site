@@ -42,7 +42,7 @@
 }
 
 #imageReadDiv {
-    background-image: url("/Images/imageRead.png");
+    background-image: url("http://windupdurb.github.io/portfolio-site/Images/imageRead.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
