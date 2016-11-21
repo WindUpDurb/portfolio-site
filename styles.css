@@ -3,6 +3,7 @@
 }
 
 #headerParallaxContainer {
+    min-height: 700px;
     height: 100vh;
     background-attachment: fixed;
     background-color: #292929;
@@ -46,6 +47,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    min-height: 750px;
 }
 
 #dddDiv {
@@ -53,6 +55,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    min-height: 725px;
 }
 
 #jsmDiv {
@@ -60,6 +63,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    min-height: 725px;
 }
 
 #backgroundQuill {
@@ -92,7 +96,7 @@
     padding: 5px;
     cursor: pointer;
     background-color: #FCC200;
-    max-width: 35%;
+    max-width: 40%;
     margin: 0 auto;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
@@ -112,6 +116,7 @@
     opacity: 0;
     transition: opacity 1s;
     height: 100vh;
+    min-height: 750px;
     background-color: rgba(239,239,239,0.6);
     color: black;
 }
@@ -138,6 +143,7 @@
     opacity: 0;
     transition: opacity 1s;
     height: 100vh;
+    min-height: 725px;
     background-color: rgba(239,239,239,0.6);
     color: #292929;
 }
@@ -162,6 +168,7 @@
     opacity: 0;
     transition: opacity 1s;
     height: 100vh;
+    min-height: 725px;
     background-color: rgba(239,239,239,0.6);
     color: #292929;
 }
@@ -214,6 +221,7 @@ a:hover {
 
 #contactSection {
     height: 100vh;
+    min-height: 725px;
 }
 
 #lastSection {
@@ -235,4 +243,24 @@ a:hover {
 
 .cardEffect:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.showOnSmaller {
+    display: none;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .hideOnSmaller {
+        display: none;
+    }
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .showOnSmaller {
+        display: inline-block;
+    }
 }

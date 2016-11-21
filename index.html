@@ -218,7 +218,7 @@
     </div>
     <div id="contactSection">
         <div class="row">
-            <div style="height: 100vh; background-color: #292929;" class="col-xs-6 text-center">
+            <div style="height: 100vh; min-height: 725px; background-color: #292929;" class="col-xs-6 text-center">
                 <div style="padding-top: 40vh">
                     <span class="nameFont">Contact</span>
                 </div>
@@ -246,8 +246,12 @@
                         </div>
                         <br><br><br>
                         <span style="font-size: 17px">Find me writing about Javascript:</span>
+                        <div class="showOnSmaller">
+                            <br>
+                            <span id="toBlog" style="font-size: 16px;" class="mainColor pointer">windupdurb.com</span>
+                        </div>
                         <br><br>
-                        <div onclick="window.open('http://www.windupdurb.com/writing/that-one-drink-abstraction-in-your-javascript', '_blank')" class="cardEffect pointer text-center" style="width: 300px">
+                        <div onclick="window.open('http://www.windupdurb.com/writing/that-one-drink-abstraction-in-your-javascript', '_blank')" class="cardEffect pointer text-center hideOnSmaller" style="width: 300px">
                             <img style="width: 300px; padding: 10px;" src="http://windupdurb.github.io/portfolio-site/Images/dandelionCompressed.jpg">
                             <span style="font-size: 16px; font-weight: bold; padding: 10px;">That Drink Brewed From Malted Barley: An Introduction to Using Abstraction in Your Javascript</span>
                             <span style="padding: 0 10px 20px 10px">Abstraction is what allows me to refer to beer without the need of having to understand the complexity of that drink brewed from malted barley. Read about how abstraction applies to Javascript. </span>

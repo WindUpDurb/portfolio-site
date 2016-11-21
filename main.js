@@ -8,6 +8,7 @@ const dddDeployedHere = document.getElementById("dddDeployedHere");
 const jsmDeployedHere = document.getElementById("jsmDeployedHere");
 const dddCodeHere = document.getElementById("dddCodeHere");
 const jsmCodeHere = document.getElementById("jsmCodeHere");
+const toBlog = document.getElementById("toBlog");
 
 linkedInIcon.addEventListener("click", () => {
     window.open("https://www.linkedin.com/in/david-urbina-589327b9", "_blank");
@@ -40,4 +41,8 @@ jsmDeployedHere.addEventListener("click", () => {
 
 jsmCodeHere.addEventListener("click", () => {
     window.open("https://github.com/amazingandyyy/jobrm", "_blank");
+});
+
+toBlog.addEventListener("click", () => {
+    window.open("http://www.windupdurb.com", "_blank");
 });
