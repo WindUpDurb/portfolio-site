@@ -225,6 +225,7 @@ a:hover {
 }
 
 #lastSection {
+    min-height: 700px;
     height: 100vh;
     background-color: #FCC200;
 }
