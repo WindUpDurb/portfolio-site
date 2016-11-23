@@ -47,7 +47,8 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    min-height: 750px;
+    min-height: 700px;
+    background-size: 100% 100%;
 }
 
 #dddDiv {
@@ -55,7 +56,8 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    min-height: 725px;
+    min-height: 700px;
+    background-size: 100% 100%;
 }
 
 #jsmDiv {
@@ -63,7 +65,8 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    min-height: 725px;
+    min-height: 700px;
+    background-size: 100% 100%;
 }
 
 #backgroundQuill {
@@ -200,26 +203,121 @@
     color: #FCC200;
 }
 
-a:hover {
-    text-decoration: none;
-    color: #FCC200;
+.projectSelectText {
+    font-size: 16px;
+    cursor: pointer;
+    color: #292929;
 }
+
+
+.projectSelectText:hover {
+    color: #292929;
+    text-decoration: none;
+}
+
+.projectSelectText:focus {
+    color: #292929;
+    text-decoration: none;
+}
+
+
+.linksToSections {
+    color: #FCC200;
+    font-size: 18px;
+}
+
+.linksToSections:hover {
+    color: #FCC200;
+    text-decoration: none;
+}
+
+.linksToSections:focus {
+    color: #FCC200;
+    text-decoration: none;
+}
+
+.linksToSectionsDark {
+    color: #292929;
+    font-size: 18px;
+}
+
+.linksToSectionsDark:hover {
+    color: #292929;
+    text-decoration: none;
+}
+
+.linksToSectionsDark:focus {
+    color: #292929;
+    text-decoration: none;
+}
+
 
 .secondaryColorBackground {
     background-color: #FCC200;
     color: #E0E0E0;
 }
 
+.divAroundSectionLinks {
+    padding-top: 300px;
+}
+
+.divAroundSectionLinksProjectSection {
+    padding-top: 260px;
+}
+
+
+.divAroundSectionTitle {
+    padding-top: 275px;
+}
+
+.aboutSectionDivHalfLeft {
+    height: 100vh;
+    min-height: 700px;
+}
+
+.aboutSectionDivHalfRight {
+    height: 100vh;
+    min-height: 700px;
+    color: #292929;
+    overflow-y: scroll;
+}
+
 #aboutSection {
     height: 100vh;
+    min-height: 700px;
+}
+
+.projectSectionDivHalfLeft {
+    height: 100vh;
+    min-height: 700px;
+}
+
+.projectSectionDivHalfRight {
+    height: 100vh;
+    min-height: 700px;
+    padding-left: 0;
+    color: white;
+    overflow-y: scroll;
 }
 
 #projectSection {
     height: 100vh;
+    min-height: 700px;
     overflow: hidden;
 }
 
 #contactSection {
+    height: 100vh;
+    min-height: 725px;
+}
+
+.contactSectionDivHalfLeft {
+    height: 100vh;
+    min-height: 725px;
+    background-color: #292929;
+}
+
+.contactSectionDivHalfRight {
     height: 100vh;
     min-height: 725px;
 }
@@ -246,22 +344,232 @@ a:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+.projectDescriptionP {
+    font-size: 18px;
+    padding-top: 5vh;
+}
+
+.projectSuppText {
+    font-size: 15px;
+}
+
+.projectTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contactName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contactInfoDiv {
+    padding-left: 5vh;
+    padding-right: 2vh;
+}
+
+.contactInfoTitle {
+    font-size: 16px;
+}
+
+.contactInfoFindMeWriting {
+    font-size: 17px;
+}
+
 .showOnSmaller {
     display: none;
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px) {
-    .hideOnSmaller {
-        display: none;
-    }
+.aboutFirstSentence {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.helloWorld {
+    font-size: 16px;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.aboutParagraph {
+    font-size: 15px;
+}
+
+.aboutResponsibilities {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.aboutResponsibilitiesDetails {
+    font-size: 15px;
+}
+
+.aboutInMyPursuits {
+    font-size: 16px;
+    padding-top: 30px;
+    font-weight: bold;
 }
 
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 480px) {
+
+    #imageReadDiv {
+        background-size: auto;
+    }
+
+    #jsmDiv {
+        background-size: auto;
+    }
+
+    #dddDiv {
+        background-size: auto;
+    }
+
+    .contactSectionDivHalfRight {
+        height: 100vh;
+        min-height: 100vh;
+    }
+
+    .contactSectionDivHalfLeft {
+        height: 100vh;
+        min-height: 100vh;
+    }
+
+    #contactSection {
+        height: 100vh;
+        min-height: 100vh;
+    }
+
+    #projectSection {
+        height: 100vh;
+        min-height: 100vh;
+    }
+
+    .projectSectionDivHalfLeft {
+        height: 100vh;
+        min-height: 100vh;
+    }
+
+    .projectSectionDivHalfRight {
+        height: 100vh;
+        min-height: 100vh;
+    }
+
+    #aboutSection {
+        height: 100vh;
+        min-height: 100vh;
+    }
+
+    .aboutSectionDivHalfLeft {
+        height: 100vh;
+        min-height: 100vh;
+    }
+
+    .aboutSectionDivHalfRight {
+        height: 100vh;
+        min-height: 100vh;
+    }
+
+    .divAroundSectionLinks {
+        padding-top: 40vh;
+    }
+
+    .divAroundSectionLinksProjectSection {
+        padding-top: 30vh;
+    }
+
+    .aboutInMyPursuits {
+        font-size: 14px;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+
+    .aboutLiSM {
+        margin-left: -25px;
+    }
+
+    .aboutResponsibilities {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .aboutResponsibilitiesDetails {
+        font-size: 13px;
+    }
+
+    .aboutParagraph {
+        font-size: 13px;
+    }
+
+    .helloWorld {
+        font-size: 14px;
+    }
+
+    .aboutFirstSentence {
+        font-size: 15px;
+    }
+
+    .contactEmail {
+        font-size: 12px;
+    }
+
+    .contactInfoFindMeWriting {
+        font-size: 14px;
+    }
+
+    .contactName {
+        font-size: 16px;
+    }
+
+    .contactInfoTitle {
+        font-size: 13px;
+    }
+
+    .contactInfoDiv {
+        padding-left: 5vh;
+        padding-right: 4vh;
+    }
+
+    .projectTitle {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .projectDescriptionP {
+        font-size: 15px;
+        padding-top: 5vh;
+    }
+
+    .projectSuppText {
+        font-size: 13px;
+    }
+
+    .moreInfoButton {
+        max-width: 60%;
+    }
+
+    .hideOnSmaller {
+        display: none;
+    }
+
+    .linksToSections {
+        font-size: 13px;
+    }
+
+    .linksToSectionsDark {
+        font-size: 13px;
+    }
+
     .showOnSmaller {
         display: inline-block;
+    }
+
+    .twitterIcon {
+        height: 25px;
+    }
+
+    .resumeIcon {
+        height: 40px;
     }
 }

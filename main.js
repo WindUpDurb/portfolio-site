@@ -56,3 +56,24 @@ imageReadDeployedHere.addEventListener("click", () => {
 imageReadCodeHere.addEventListener("click", () => {
     window.open("https://github.com/WindUpDurb/news-project-express", "_blank");
 });
+
+function goToProject(project) {
+    document.getElementById("projectsDiv").scrollTop = document.getElementById(project).offsetTop;
+
+}
+
+$(document).ready(() => {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+
+});
