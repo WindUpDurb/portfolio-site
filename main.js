@@ -25,7 +25,7 @@ githubIcon.addEventListener("click", () => {
 });
 
 openResume.addEventListener("click", () => {
-   window.open("http://windupdurb.github.io/portfolio-site/resumeNov2016.pdf", "_blank");
+   window.open("http://windupdurb.github.io/portfolio-site/resume.pdf", "_blank");
 });
 
 dddDeployedHere.addEventListener("click", () => {
@@ -50,7 +50,7 @@ toBlog.addEventListener("click", () => {
 });
 
 imageReadDeployedHere.addEventListener("click", () => {
-    window.open("http://www.imageread.tech:4000", "_blank");
+    window.open("http://www.imageread.tech", "_blank");
 });
 
 imageReadCodeHere.addEventListener("click", () => {
