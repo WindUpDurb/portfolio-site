@@ -554,11 +554,11 @@ and (max-device-width: 480px) {
     }
 
     .linksToSections {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .linksToSectionsDark {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .showOnSmaller {
