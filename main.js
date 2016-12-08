@@ -25,7 +25,8 @@ githubIcon.addEventListener("click", () => {
 });
 
 openResume.addEventListener("click", () => {
-   window.open("http://windupdurb.github.io/portfolio-site/resumeUrbina.pdf", "_blank");
+   window.open("http://windupdurb.github.io/portfolio-site/resumeDUrbina.pdf", "_blank");
+   //window.open("/resumeDUrbina.pdf", "_blank");
 });
 
 dddDeployedHere.addEventListener("click", () => {
